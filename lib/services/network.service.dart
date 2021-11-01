@@ -5,7 +5,7 @@ class NetworkService extends GetConnect {
 
   // UNCOMMENT THESE WHEN YOU UNCOMMENT HIVE SERVICE
 
-  
+
   // late HiveService hiveService;
 
   // Future<NetworkService> init() async {
