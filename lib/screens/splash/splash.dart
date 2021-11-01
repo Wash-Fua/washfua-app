@@ -1,20 +1,19 @@
+
 import 'package:flutter/material.dart';
-import 'package:washwash/themes/colors.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
+import 'package:washwash/screens/splash/splash.controller.dart';
 
-class Splash extends StatelessWidget {
-  const Splash({Key? key}) : super(key: key);
-
-  @override
+class Splash extends GetView<SplashController> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(
-          "Wash Fua",
-          style: TextStyle(
-            color: primary,
-            fontSize: 48,
-            fontFamily: "Poppins",
-            fontWeight: FontWeight.w700,
+        child: Hero(
+          tag: 'logo',
+          child: SvgPicture.asset(
+            controller.path,
+            width:Get.width * .25
           ),
         ),
       ),
