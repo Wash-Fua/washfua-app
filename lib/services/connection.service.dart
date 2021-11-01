@@ -1,5 +1,6 @@
 import 'package:connectivity/connectivity.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
+import 'package:washwash/components/snackbars.dart';
 
 class ConnectionService extends GetxService {
   late final Logger logger = Logger();
