@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 import 'package:washwash/routes/routes.dart';
 
 class SplashController extends GetxController {
-  String path = 'asset/images/logo.svg';
+  String path = 'assets/images/logo.svg';
 
   @override
   void onInit() {

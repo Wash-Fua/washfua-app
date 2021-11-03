@@ -7,7 +7,10 @@ class Home extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Welcome to Wash fua'),
+        child: Text(
+          'Welcome to Wash fua',
+          style: TextStyle(color: Colors.green),
+        ),
       ),
     );
   }
